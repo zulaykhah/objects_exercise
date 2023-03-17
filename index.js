@@ -39,7 +39,6 @@ function createJambScores(eng, govt, lit, crk) {
 const musaJambScores = createJambScores(70, 85, 82, 94);
 console.log(musaJambScores);
 
-//  Add the object as a property to Musa object you created above in (a) above
 createPerson.eng = 70;
 createPerson.govt = 85;
 createPerson.lit = 82;
@@ -47,8 +46,7 @@ createPerson.crk = 94;
 console.log(createPerson);
 
 // Question 4
-// 1. Using Object.assign()
-// example
+
 const firstPen = {
     make: 'maker',
     color: 'blue',
@@ -60,7 +58,7 @@ console.log(firstPen);
 console.log(secondPen);
 
 // 2. Using spread syntax ...
-// example
+
 const thirdPen = {...firstPen}
 thirdPen.make = 'ballpoint pen';
 console.log(thirdPen);
